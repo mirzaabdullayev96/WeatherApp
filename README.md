@@ -5,7 +5,7 @@ Welcome to our **Weather Forecast API Service**! This project provides weather f
 ## 📂 Project Structure
 
 - **`Controllers`**: Handles all incoming API requests for weather data.
-  
+
 - **`Models`**: Defines data models for handling responses from various weather API providers.
 
 - **`Services`**
@@ -34,12 +34,13 @@ Welcome to our **Weather Forecast API Service**! This project provides weather f
 
 ## 🌐 Deployment
 
-The application is **Dockerized** and deployed to **Azure**. You can access the deployed service [here](https://weatherappforecast-c2g0bnb5ema6gzf3.westeurope-01.azurewebsites.net/WeatherForecast/2024-09-12?Country=IT&City=Milan). A **Postman Collection** is also available for testing the API.
+The application is **Dockerized** and deployed to **Azure**. You can access the deployed service [here](https://weatherappforecast-c2g0bnb5ema6gzf3.westeurope-01.azurewebsites.net/WeatherForecast/2024-09-12?Country=IT&City=Milan).
+Swagger Documentation: The Swagger UI is publicly available to explore the API endpoints. A **Postman Collection** is also available for testing the API.
 
 ## 📥 Getting Started
 
 1. **Clone the repository**.
 2. **Run Docker**: Execute `docker-compose up` to start the application.
-3. **Test with Postman**: Use our [Postman Collection](#) to test the API endpoints.
+3. **Test with Postman**: Use our [Postman Collection](https://github.com/mirzaabdullayev96/WeatherApp/blob/main/WeatherForecast.postman_collection) to test the API endpoints.
 
 ---
