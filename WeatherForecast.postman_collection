@@ -1,0 +1,257 @@
+{
+	"info": {
+		"_postman_id": "fa6e8239-a41d-4505-b7a4-cd015ff93b69",
+		"name": "Weather Forecast",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "17528160"
+	},
+	"item": [
+		{
+			"name": "GetWeatherForecast",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://weatherappforecast-c2g0bnb5ema6gzf3.westeurope-01.azurewebsites.net/WeatherForecast/2024-09-12?Country=IT&City=Milan",
+					"protocol": "https",
+					"host": [
+						"weatherappforecast-c2g0bnb5ema6gzf3",
+						"westeurope-01",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"WeatherForecast",
+						"2024-09-12"
+					],
+					"query": [
+						{
+							"key": "Country",
+							"value": "IT",
+							"description": "Country code is required for this query"
+						},
+						{
+							"key": "City",
+							"value": "Milan",
+							"description": "City name is required for this query"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "200 - Success",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://weatherappforecast-c2g0bnb5ema6gzf3.westeurope-01.azurewebsites.net/WeatherForecast/2024-09-12?Country=IT&City=Milan",
+							"protocol": "https",
+							"host": [
+								"weatherappforecast-c2g0bnb5ema6gzf3",
+								"westeurope-01",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"WeatherForecast",
+								"2024-09-12"
+							],
+							"query": [
+								{
+									"key": "Country",
+									"value": "IT",
+									"description": "Country code is required for this query"
+								},
+								{
+									"key": "City",
+									"value": "Milan",
+									"description": "City name is required for this query"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 12 Sep 2024 02:44:39 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Kestrel"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "public,max-age=300"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "X-Rate-Limit-Limit",
+							"value": "1m"
+						},
+						{
+							"key": "X-Rate-Limit-Remaining",
+							"value": "58"
+						},
+						{
+							"key": "X-Rate-Limit-Reset",
+							"value": "2024-09-12T02:45:15.6902365Z"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"date\": \"2024-09-12T00:00:00\",\n        \"city\": \"Baku\",\n        \"country\": \"Az\",\n        \"temperatureC\": 24.6,\n        \"summary\": \"Clear \",\n        \"source\": \"WeatherAPI\"\n    },\n    {\n        \"date\": \"2024-09-12T01:00:00\",\n        \"city\": \"Baku\",\n        \"country\": \"Az\",\n        \"temperatureC\": 24.2,\n        \"summary\": \"Clear \",\n        \"source\": \"WeatherAPI\"\n    },\n    {\n        \"date\": \"2024-09-12T02:00:00\",\n        \"city\": \"Baku\",\n        \"country\": \"Az\",\n        \"temperatureC\": 24.1,\n        \"summary\": \"Clear \",\n        \"source\": \"WeatherAPI\"\n    },\n    {\n        \"date\": \"2024-09-12T03:00:00\",\n        \"city\": \"Baku\",\n        \"country\": \"Az\",\n        \"temperatureC\": 24.1,\n        \"summary\": \"Clear \",\n        \"source\": \"WeatherAPI\"\n    },\n    {\n        \"date\": \"2024-09-12T04:00:00\",\n        \"city\": \"Baku\",\n        \"country\": \"Az\",\n        \"temperatureC\": 23.9,\n        \"summary\": \"Clear \",\n        \"source\": \"WeatherAPI\"\n    },\n    {\n        \"date\": \"2024-09-12T05:00:00\",\n        \"city\": \"Baku\",\n        \"country\": \"Az\",\n        \"temperatureC\": 23.7,\n        \"summary\": \"Clear \",\n        \"source\": \"WeatherAPI\"\n    },\n    {\n        \"date\": \"2024-09-12T06:00:00\",\n        \"city\": \"Baku\",\n        \"country\": \"Az\",\n        \"temperatureC\": 22.4,\n        \"summary\": \"Sunny\",\n        \"source\": \"WeatherAPI\"\n    },\n    {\n        \"date\": \"2024-09-12T07:00:00\",\n        \"city\": \"Baku\",\n        \"country\": \"Az\",\n        \"temperatureC\": 23.5,\n        \"summary\": \"Sunny\",\n        \"source\": \"WeatherAPI\"\n    },\n    {\n        \"date\": \"2024-09-12T08:00:00\",\n        \"city\": \"Baku\",\n        \"country\": \"Az\",\n        \"temperatureC\": 24.2,\n        \"summary\": \"Sunny\",\n        \"source\": \"WeatherAPI\"\n    },\n    {\n        \"date\": \"2024-09-12T09:00:00\",\n        \"city\": \"Baku\",\n        \"country\": \"Az\",\n        \"temperatureC\": 25.2,\n        \"summary\": \"Sunny\",\n        \"source\": \"WeatherAPI\"\n    },\n    {\n        \"date\": \"2024-09-12T10:00:00\",\n        \"city\": \"Baku\",\n        \"country\": \"Az\",\n        \"temperatureC\": 25.9,\n        \"summary\": \"Sunny\",\n        \"source\": \"WeatherAPI\"\n    },\n    {\n        \"date\": \"2024-09-12T11:00:00\",\n        \"city\": \"Baku\",\n        \"country\": \"Az\",\n        \"temperatureC\": 26.8,\n        \"summary\": \"Sunny\",\n        \"source\": \"WeatherAPI\"\n    },\n    {\n        \"date\": \"2024-09-12T12:00:00\",\n        \"city\": \"Baku\",\n        \"country\": \"Az\",\n        \"temperatureC\": 27.5,\n        \"summary\": \"Sunny\",\n        \"source\": \"WeatherAPI\"\n    },\n    {\n        \"date\": \"2024-09-12T13:00:00\",\n        \"city\": \"Baku\",\n        \"country\": \"Az\",\n        \"temperatureC\": 27.6,\n        \"summary\": \"Sunny\",\n        \"source\": \"WeatherAPI\"\n    },\n    {\n        \"date\": \"2024-09-12T14:00:00\",\n        \"city\": \"Baku\",\n        \"country\": \"Az\",\n        \"temperatureC\": 27.6,\n        \"summary\": \"Sunny\",\n        \"source\": \"WeatherAPI\"\n    },\n    {\n        \"date\": \"2024-09-12T15:00:00\",\n        \"city\": \"Baku\",\n        \"country\": \"Az\",\n        \"temperatureC\": 27.8,\n        \"summary\": \"Sunny\",\n        \"source\": \"WeatherAPI\"\n    },\n    {\n        \"date\": \"2024-09-12T16:00:00\",\n        \"city\": \"Baku\",\n        \"country\": \"Az\",\n        \"temperatureC\": 27.9,\n        \"summary\": \"Sunny\",\n        \"source\": \"WeatherAPI\"\n    },\n    {\n        \"date\": \"2024-09-12T17:00:00\",\n        \"city\": \"Baku\",\n        \"country\": \"Az\",\n        \"temperatureC\": 27.7,\n        \"summary\": \"Sunny\",\n        \"source\": \"WeatherAPI\"\n    },\n    {\n        \"date\": \"2024-09-12T18:00:00\",\n        \"city\": \"Baku\",\n        \"country\": \"Az\",\n        \"temperatureC\": 27.4,\n        \"summary\": \"Sunny\",\n        \"source\": \"WeatherAPI\"\n    },\n    {\n        \"date\": \"2024-09-12T19:00:00\",\n        \"city\": \"Baku\",\n        \"country\": \"Az\",\n        \"temperatureC\": 26.8,\n        \"summary\": \"Clear \",\n        \"source\": \"WeatherAPI\"\n    },\n    {\n        \"date\": \"2024-09-12T20:00:00\",\n        \"city\": \"Baku\",\n        \"country\": \"Az\",\n        \"temperatureC\": 26.3,\n        \"summary\": \"Clear \",\n        \"source\": \"WeatherAPI\"\n    },\n    {\n        \"date\": \"2024-09-12T21:00:00\",\n        \"city\": \"Baku\",\n        \"country\": \"Az\",\n        \"temperatureC\": 25.6,\n        \"summary\": \"Clear \",\n        \"source\": \"WeatherAPI\"\n    },\n    {\n        \"date\": \"2024-09-12T22:00:00\",\n        \"city\": \"Baku\",\n        \"country\": \"Az\",\n        \"temperatureC\": 25.2,\n        \"summary\": \"Clear \",\n        \"source\": \"WeatherAPI\"\n    },\n    {\n        \"date\": \"2024-09-12T23:00:00\",\n        \"city\": \"Baku\",\n        \"country\": \"Az\",\n        \"temperatureC\": 24.7,\n        \"summary\": \"Clear \",\n        \"source\": \"WeatherAPI\"\n    },\n    {\n        \"date\": \"2024-09-12T00:00:00\",\n        \"city\": \"Baku\",\n        \"country\": \"Az\",\n        \"temperatureC\": 24.6,\n        \"summary\": \"Few clouds\",\n        \"source\": \"Weatherbit\"\n    }\n]"
+				},
+				{
+					"name": "400 - Bad Request",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://weatherappforecast-c2g0bnb5ema6gzf3.westeurope-01.azurewebsites.net/WeatherForecast/2024-09-11?Country=IT&City=Milan",
+							"protocol": "https",
+							"host": [
+								"weatherappforecast-c2g0bnb5ema6gzf3",
+								"westeurope-01",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"WeatherForecast",
+								"2024-09-11"
+							],
+							"query": [
+								{
+									"key": "Country",
+									"value": "IT",
+									"description": "Country code is required for this query"
+								},
+								{
+									"key": "City",
+									"value": "Milan",
+									"description": "City name is required for this query"
+								}
+							]
+						}
+					},
+					"status": "Bad Request",
+					"code": 400,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/problem+json; charset=utf-8"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 12 Sep 2024 02:43:31 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Kestrel"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "X-Rate-Limit-Limit",
+							"value": "1m"
+						},
+						{
+							"key": "X-Rate-Limit-Remaining",
+							"value": "59"
+						},
+						{
+							"key": "X-Rate-Limit-Reset",
+							"value": "2024-09-12T02:44:31.6149654Z"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"type\": \"https://tools.ietf.org/html/rfc9110#section-15.5.1\",\n    \"title\": \"One or more validation errors occurred.\",\n    \"status\": 400,\n    \"errors\": {\n        \"Date\": [\n            \"The specified condition was not met for 'Date'.\"\n        ]\n    },\n    \"traceId\": \"00-dd160d8b5aed0fa8509794fcb93ca40d-db6909c19ff0fb67-00\"\n}"
+				},
+				{
+					"name": "404 - Not Found",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://weatherappforecast-c2g0bnb5ema6gzf3.westeurope-01.azurewebsites.net/WeatherForecast/2024-09-12?Country=ZZ&City=asdasdasdasdasdasdasdsad",
+							"protocol": "https",
+							"host": [
+								"weatherappforecast-c2g0bnb5ema6gzf3",
+								"westeurope-01",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"WeatherForecast",
+								"2024-09-12"
+							],
+							"query": [
+								{
+									"key": "Country",
+									"value": "ZZ",
+									"description": "Country code is required for this query"
+								},
+								{
+									"key": "City",
+									"value": "asdasdasdasdasdasdasdsad",
+									"description": "City name is required for this query"
+								}
+							]
+						}
+					},
+					"status": "Not Found",
+					"code": 404,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 12 Sep 2024 02:46:57 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Kestrel"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "public,max-age=300"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "X-Rate-Limit-Limit",
+							"value": "1m"
+						},
+						{
+							"key": "X-Rate-Limit-Remaining",
+							"value": "59"
+						},
+						{
+							"key": "X-Rate-Limit-Reset",
+							"value": "2024-09-12T02:47:58.1266606Z"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"No weather forecast could be found for the specified city or country.\"\n}"
+				}
+			]
+		}
+	]
+}

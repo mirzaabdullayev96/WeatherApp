@@ -1,0 +1,17 @@
+services:
+  weatherapp:
+    image: ${DOCKER_REGISTRY-}weatherapp
+    build:
+      context: .
+      dockerfile: WeatherApp/Dockerfile
+    depends_on:
+      - weatherapp.redis
+    ports:
+      - '80:8080'
+      - '443:8081'
+
+  weatherapp.redis:
+    image: redis:latest
+    restart: always
+    ports:
+        - '6379:6379' 

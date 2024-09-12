@@ -1,0 +1,14 @@
+services:
+  weatherapp:
+    image: weatherapp.azurecr.io/weatherapp:latest # we may use here ${AZURE_REGISTRY_URL}
+    depends_on:
+      - weatherapp.redis
+    ports:
+      - '80:8080'
+      - '443:8081'
+
+  weatherapp.redis:
+    image: redis:latest
+    restart: always
+    ports:
+        - '6379:6379'

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35309.182
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherApp", "WeatherApp\WeatherApp.csproj", "{7575D554-C606-4EF1-B1D2-6B5E801393B9}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{132B68C2-F2D8-4173-9A57-47A1DD77082F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7575D554-C606-4EF1-B1D2-6B5E801393B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7575D554-C606-4EF1-B1D2-6B5E801393B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7575D554-C606-4EF1-B1D2-6B5E801393B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7575D554-C606-4EF1-B1D2-6B5E801393B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{132B68C2-F2D8-4173-9A57-47A1DD77082F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{132B68C2-F2D8-4173-9A57-47A1DD77082F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{132B68C2-F2D8-4173-9A57-47A1DD77082F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{132B68C2-F2D8-4173-9A57-47A1DD77082F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {50C4A70E-97E4-4679-A0D3-8F4D81F45809}
+	EndGlobalSection
+EndGlobal
